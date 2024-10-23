@@ -1,4 +1,4 @@
-console.log("JS is connected");
+console.log(Js connect);
 
 // Constructor function for da Monsters
 function Monster(name, type, strength, scareFactor, imageUrl) {
