@@ -1,6 +1,6 @@
 console.log("JS is connected");
 
-// Constructor function for the Monsters
+// Constructor function for da Monsters
 function Monster(name, type, strength, scareFactor, imageUrl) {
     this.name = name;
     this.type = type;
@@ -9,9 +9,9 @@ function Monster(name, type, strength, scareFactor, imageUrl) {
     this.imageUrl = imageUrl;  // Add image URL as a property
 }
 
-// Function that gets called when the button is clicked
+// function that get called when  button is clicked
 function myFunction() {
-    //  new instances of  Monster object with the  image URLs
+    //  new instances of monster object with the  image URLs
     const monster1 = new Monster("Kranky Kranky", "Demon", 10, "High", "https://i1.sndcdn.com/artworks-pztYQly1mq1wekKz-cuLutw-t500x500.jpg");
     const monster2 = new Monster("Luh Geeky", "Demon", 7, "Medium", "https://i1.sndcdn.com/artworks-rv49UhwKGXKDizlD-PBj37A-t1080x1080.jpg");
     const monster3 = new Monster("Kranky", "Demon", 5, "Low", "https://i1.sndcdn.com/artworks-ey14jAC1GWktyjho-j682lw-t1080x1080.jpg");
